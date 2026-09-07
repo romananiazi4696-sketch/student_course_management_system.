@@ -148,8 +148,7 @@ The project also includes practical work with database constraints and integrity
 . NOT NULL
 . UNIQUE
 . CHECK
-
-Referential Integrity:
+. Referential Integrity
 
 These constraints were tested using valid and invalid inputs to verify that the database maintains consistent and reliable data.
 
@@ -192,12 +191,12 @@ PURPOSE:  ER diagram creation
 
 Student-Course-Management-System/
 │
-├── Student course.sql
+├── Student_course_db.sql
 ├── queries.sql
 ├── ER Diagram.png
 └── README.md
 
-. Student course.sql Contains the database structure and SQL required to create and populate the project database.
+. Student_course_db.sql Contains the database structure and SQL required to create and populate the project database.
 . queries.sql Contains the SQL queries practiced during the project, including filtering, aggregate functions, grouping, JOINs,
 subqueries, correlated subqueries, and other SQL concepts.
 . ER Diagram.png Visual representation of the database entities, attributes, keys, and relationships.
